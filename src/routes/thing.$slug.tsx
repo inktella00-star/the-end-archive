@@ -172,10 +172,10 @@ function ThingPage() {
         Last updated {formatDate(t.updated)}
       </p>
       <div className="mt-4 flex gap-4 font-mono text-xs uppercase">
-        <Link to="/add" search={{ correction: t.slug }} className="underline">
+        <Link to="/account" className="underline">
           Suggest correction
         </Link>
-        <Link to="/add" search={{ correction: t.slug }} className="underline">
+        <Link to="/account" className="underline">
           Add source
         </Link>
       </div>
